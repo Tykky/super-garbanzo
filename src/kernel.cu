@@ -32,7 +32,7 @@ void launch_kernel()
     int device;
     if (cudaGetDevice(&device) != cudaSuccess)
     {
-        printf("Cuda capable device not foundn\n");
+        printf("Cuda capable device not found\n");
         getchar();
         return;
     }
