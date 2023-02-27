@@ -1,4 +1,3 @@
-
 set(SRCS
     main.cpp
     kernel.cu
